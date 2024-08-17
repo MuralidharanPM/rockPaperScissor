@@ -1,0 +1,132 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #210c45;
+}
+.button-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.circle-button {
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    border-radius: 50%;
+    background-color: #110625;
+    color: white;
+    font-size: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+    border: 4px solid #fff;
+}
+.paperCls {
+    background-image: url(assets/paperIcon.png);
+    background-size: 70%;
+}
+.rockCls {
+    background-image: url(assets/rockIcon.png);
+}
+.scissorCls {
+    background-image: url(assets/scissorsIcon.png);
+}
+.titleTxtCls {
+    font-size: 5vw;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hiCls {
+    content: " ";
+    display: block;
+    width: 10%;
+    padding-right: 10px;
+    background-image: url(assets/handIcon.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+}
+.contentAreaCls {
+    width: 70%;
+}
+.winContCls {
+    font-size: 3vw;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 95px;
+    align-items: center;
+    gap: 15px;
+}
+.rockContCls::after {
+    content: " ";
+    display: block;
+    width: 10%;
+    padding-bottom: 6vw;
+    background-image: url(assets/rockIcon.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+}
+.paperContCls::after {
+    content: " ";
+    display: block;
+    width: 10%;
+    padding-bottom: 6vw;
+    background-image: url(assets/paperIcon.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+}
+.scissorContCls::after {
+    content: " ";
+    display: block;
+    width: 10%;
+    padding-bottom: 6vw;
+    background-image: url(assets/scissorsIcon.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+}
+.winContCls::after {
+    content: " ";
+    display: block;
+    width: 10%;
+    padding-bottom: 10vw;
+    background-image: url(assets/congratsLogo.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
+}
+.lostContCls {
+    font-size: 3vw;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 95px;
+    align-items: center;
+    gap: 15px;
+}
