@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #210c45;
+    overflow: hidden;
 }
 .button-row {
     display: flex;
@@ -61,6 +62,30 @@ body {
 }
 .contentAreaCls {
     width: 70%;
+}
+.drawContCls {
+    font-size: 3vw;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 95px;
+    align-items: center;
+    gap: 15px;
+}
+.drawContCls::after {
+    content: " ";
+    display: block;
+    width: 10%;
+    padding-bottom: 6vw;
+    background-image: url(assets/sadLogo.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center center;
 }
 .winContCls {
     font-size: 3vw;
